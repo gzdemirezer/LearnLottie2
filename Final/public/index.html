@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Lottie Json Method-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <!-- Lottie dotLottie Method -->
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
+    <!-- additional style options -->
+    <!-- <style>
+        lottie-player {
+        --lottie-player-seeker-track-color: #e48509;
+        --lottie-player-seeker-thumb-color: #ffcc00;
+        }
+    </style> -->
+
+    <title>
+    Learn Lottie
+    </title>
+</head>
+<body>
+    <h1>Hello Amanda</h1>
+
+    <!-- Lottie JSON MEthod -->
+
+    <!-- If I write the code -->
+    <lottie-player src= "https://lottie.host/272b60dd-462d-42a3-8ed6-fec4143633d6/X4FxBascRI.json"></lottie-player>
+    <!-- If I change the styles and copy from the Lottie  (Allows many control changes and automaticaly loops)-->
+    <lottie-player src="https://lottie.host/272b60dd-462d-42a3-8ed6-fec4143633d6/X4FxBascRI.json"
+     background="transparent" speed="1" style="width: 300px; height: 300px" direction="1" mode="normal" loop controls autoplay></lottie-player>
+
+     <!-- dotLottie Method (recommended) -->
+
+     <!-- Copied from Lottie Files -->
+     <dotlottie-player src="https://lottie.host/272b60dd-462d-42a3-8ed6-fec4143633d6/X4FxBascRI.json" 
+     background="#000000" speed="1" style="width: 300px; height: 300px" direction="1" playMode="normal" loop controls autoplay></dotlottie-player>
+
+     <!--  Wanted to add hover option to this  -->
+     <dotlottie-player src="https://lottie.host/272b60dd-462d-42a3-8ed6-fec4143633d6/X4FxBascRI.json" 
+     background="#efefef" speed="1" style="width: 300px; height: 300px" direction="1" playMode="normal" loop controls autoplay hover></dotlottie-player>
+</body>
+</html>
